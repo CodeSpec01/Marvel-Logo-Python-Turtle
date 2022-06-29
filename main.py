@@ -3,18 +3,20 @@ import turtle
 
 # Creating the Window -------------------------------------------------------------------------------------------------
 
-wn = turtle.Screen()
+s = turtle.Screen()
+s.setup(1450,500)
 turtle.colormode(255)
-wn.bgcolor(205,1,2)
-wn.title("Turtle")
+s.bgcolor(195,1,2)
+s.title("Marvel Studios Logo")
 m = turtle.Turtle()
-white = (194,235,255)
-red = (205,1,2)
+m.color('red')
+white = (220,245,253)
+red = (190,1,2)
 
 # Starting of M -------------------------------------------------------------------------------------------------------------------
 
 m.penup()
-m.goto(-500,-100)
+m.goto(-500,-50)
 m.pendown()
 
 m.fillcolor(white)
@@ -95,11 +97,11 @@ m.pendown()
 m.fillcolor(red)
 m.begin_fill()
 
-m.forward(65)
+m.forward(80)
 m.left(80)
-m.forward(20)
+m.forward(15)
 m.left(80)
-m.forward(65)
+m.forward(80)
 m.left(100)
 m.forward(42)
 
@@ -246,5 +248,5 @@ m.right(90)
 m.forward(140)
 
 m.end_fill()
-
+m.hideturtle()
 turtle.done()
