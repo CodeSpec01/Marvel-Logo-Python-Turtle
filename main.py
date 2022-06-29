@@ -118,11 +118,39 @@ m.forward(30)
 
 # Going for the V -----------------------------------------------------------------------
 
-
+m.penup()
+m.backward(139)
+m.right(90)
+m.forward(200)
+m.right(170)
+m.pendown()
+m.forward(203)
+m.left(80)
+m.forward(70)
+m.left(80)
+m.forward(203)
+m.left(100)
+m.forward(40)
+m.left(80)
+m.forward(144)
+m.right(80)
+m.forward(10)
+m.right(80)
+m.forward(144)
+m.left(80)
+m.forward(40)
 
 # Going for the E -------------------------------------------------------------------------
 
-
+m.penup()
+m.backward(140)
+m.right(90)
+m.backward(200)
+m.right(90)
+m.forward(40)
+m.left(90)
+m.pendown()
+m.forward(200)
 
 # Going fot the L ------------------------------------------------------------------------
 
