@@ -88,7 +88,7 @@ m.pendown()
 m.left(90)
 m.forward(200)
 m.right(90)
-m.forward(40)
+m.forward(30)
 m.circle(-60,180)
 m.penup()
 m.right(90)
@@ -103,7 +103,12 @@ m.backward(30)
 m.right(150)
 m.forward(60)
 m.pendown()
-m.forward(x)
+# -----------------------------------------
+m.forward(115)
+m.right(120)
+m.forward(30)
+m.right(60)
+m.forward(105)
 
 # Going for the V -----------------------------------------------------------------------
 
